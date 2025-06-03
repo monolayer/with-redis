@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+	--color-*: initial;
+}
+
+@import "reshaped/themes/reshaped/tailwind.css";
+
+@theme inline {
+	--color-background: var(--rs-color-background-page);
+	--color-foreground: var(--rs-color-foreground-neutral);
+}
